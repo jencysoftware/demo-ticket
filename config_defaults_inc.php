@@ -1091,7 +1091,7 @@ $g_font_family_choices_local = array(
  * browser window title
  * @global string $g_window_title
  */
-$g_window_title = 'MantisBT';
+$g_window_title = 'Ticket System';
 
 /**
  * OpenSearch engine title prefix.
