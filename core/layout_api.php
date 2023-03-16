@@ -1150,8 +1150,8 @@ function layout_footer() {
 	}
 	echo '<div class="col-md-6 col-xs-12 no-padding">' . "\n";
 	echo '<address>' . "\n";
-	echo '<strong>Powered by <a href="https://www.mantisbt.org" title="bug tracking software">MantisBT ' . $t_version_suffix . '</a></strong> <br>' . "\n";
-	echo "<small>Copyright &copy;$t_copyright_years MantisBT Team</small>" . '<br>';
+	echo '<strong>Powered by <a href="https://demo-ticket.jencysoftware.com" title="bug tracking software">Ticket System ' . $t_version_suffix . '</a></strong> <br>' . "\n";
+	echo "<small>Copyright &copy;$t_copyright_years Jency Software Team</small>" . '<br>';
 
 	# Show optional user-specified custom copyright statement
 	$t_copyright_statement = config_get_global( 'copyright_statement' );
